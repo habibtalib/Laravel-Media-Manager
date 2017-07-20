@@ -465,8 +465,14 @@
     </div>
 @endsection
 
+@php
+    $local = LaravelLocalization::getCurrentLocale() == LaravelLocalization::getDefaultLocale()
+    ? '' : '/'.LaravelLocalization::getCurrentLocale();
+@endphp
+
 @section('footer')
     <script>
+        const locale = {!! json_encode($local) !!}
         const media_root_url = {!! json_encode(config('mediaManager.root_url')) !!}
         const warningClass = 'is-warning'
         const errorClass = 'is-danger'
