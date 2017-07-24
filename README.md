@@ -4,7 +4,7 @@
 
 ## Intro
 
-- Inspired by [Voyager](https://github.com/the-control-group/voyager) & [October](https://github.com/octobercms/october)
+- Inspired by [Voyager](https://github.com/the-control-group/voyager) & [October](https://github.com/octobercms/october) & [WordPress](https://codex.wordpress.org/Media_Library_Screen)
 - Built using
     + [Vue](https://vuejs.org/)
     + [jQuery](https://jquery.com/)
